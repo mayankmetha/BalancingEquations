@@ -1,4 +1,4 @@
-package com.mayank.balanceequation
+package com.BalancingEquations
 
 import android.annotation.SuppressLint
 import android.os.Build
@@ -8,6 +8,7 @@ import android.webkit.WebView
 import android.webkit.WebViewClient
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.WindowCompat
+import com.BalancingEquations.R
 
 class MainActivity : AppCompatActivity() {
 

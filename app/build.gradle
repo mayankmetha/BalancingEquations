@@ -4,17 +4,15 @@ plugins {
 }
 
 android {
-    namespace 'com.mayank.balanceequation'
+    namespace 'com.BalancingEquations'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.mayank.balanceequation"
+        applicationId "com.BalancingEquations"
         minSdk 14
         targetSdk 33
-        versionCode 30000
-        versionName "3.0"
-
-        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        versionCode 31000
+        versionName "3.1.0"
     }
 
     buildTypes {
@@ -44,7 +42,4 @@ dependencies {
     implementation 'androidx.navigation:navigation-fragment-ktx:2.5.1'
     implementation 'androidx.navigation:navigation-ui-ktx:2.5.1'
     implementation 'androidx.webkit:webkit:1.4.0'
-    testImplementation 'junit:junit:4.13.2'
-    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
-    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
 }
