@@ -1,5 +1,7 @@
 package com.mayank.balanceequation
 
+import android.annotation.SuppressLint
+import android.os.Build
 import android.os.Bundle
 import android.webkit.WebChromeClient
 import android.webkit.WebView
@@ -9,6 +11,7 @@ import androidx.core.view.WindowCompat
 
 class MainActivity : AppCompatActivity() {
 
+    @SuppressLint("SetJavaScriptEnabled")
     override fun onCreate(savedInstanceState: Bundle?) {
         WindowCompat.setDecorFitsSystemWindows(window, false)
         super.onCreate(savedInstanceState)
@@ -18,6 +21,9 @@ class MainActivity : AppCompatActivity() {
         webView.webViewClient = WebViewClient()
         webView.webChromeClient = WebChromeClient()
         webView.settings.javaScriptEnabled = true
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+            webView.settings.safeBrowsingEnabled = true
+        }
         webView.loadUrl("https://mayankmetha.github.io/BalancingEquations")
     }
 
