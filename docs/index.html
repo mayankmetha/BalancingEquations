@@ -1,0 +1,112 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
+		<link rel="stylesheet" href="/raw/w3css.css" />
+		<script src="/raw/chemical_equation_balancer_javascript.js"></script>
+		<title>Balance Equations</title>
+	</head>
+	<body>
+		<header class="w3-container w3-blue">
+			<h3 class="w3-center">BALANCING EQUATIONS</h3>
+		</header>
+		<div class="w3-row">
+			<button class="w3-col s6 m6 l6 w3-blue w3-center w3-btn" onclick="document.getElementById('about').style.display='block'">ABOUT</button>
+			<button class="w3-col s6 m6 l6 w3-blue w3-center w3-btn" onclick="document.getElementById('tutorial').style.display='block'">TUTORIAL</button>
+		</div>
+		<div id="about" class="w3-modal">
+			<div class="w3-modal-content">
+				<header class="w3-container w3-blue">
+					<h1 class="w3-center">ABOUT</h1>
+				</header>
+				<div class="w3-container w3-center">
+					<h4 class="w3-text-blue">Developer</h4>
+					<h6>Mayank Metha D</h6>
+					<div class="w3-border-top w3-border-bottom w3-border-blue"></div>
+					<h4 class="w3-text-blue">Version</h4>
+					<h6>2.0.0</h6>
+				</div>
+				<footer class="w3-container w3-blue">
+					<div class="w3-center w3-padding-16">
+						<button class="w3-btn w3-round-xxlarge w3-blue w3-border w3-border-white" onclick="document.getElementById('about').style.display='none'">CLOSE</button>
+					</div>
+				</footer>
+			</div>
+		</div>
+		<div id="tutorial" class="w3-modal">
+			<div class="w3-modal-content">
+				<header class="w3-container w3-blue">
+					<h1 class="w3-center">TUTORIAL</h1>
+				</header>
+				<div class="w3-container w3-center">
+					<h4 class="w3-text-blue">SUBSCRIPT</h4>
+					<h6 class="w3-text-blue">INPUT</h6><h7>N = N2</h7>
+					<h6 class="w3-text-blue">EQUATION</h6><h7>N → N<sub>2</sub></h7>
+					<h4></h4>
+					<div class="w3-border-top w3-border-bottom w3-border-blue"></div>
+					<h4 class="w3-text-blue">COMPOUNDS</h4>
+					<h6 class="w3-text-blue">INPUT</h6><h7>H2 + O2 = H2O</h7>
+					<h6 class="w3-text-blue">EQUATION</h6><h7>H<sub>2</sub> + O<sub>2</sub> → H<sub>2</sub>O</h7>
+					<h4></h4>
+					<div class="w3-border-top w3-border-bottom w3-border-blue"></div>
+					<h4 class="w3-text-blue">GROUPS</h4>
+					<h6 class="w3-text-blue">INPUT</h6><h7>Mg(OH)2 = MgO + H2O</h7>
+					<h6 class="w3-text-blue">EQUATION</h6><h7>Mg(OH)<sub>2</sub> → MgO + H<sub>2</sub>O</h7>
+					<h4></h4>
+					<div class="w3-border-top w3-border-bottom w3-border-blue"></div>
+					<h4 class="w3-text-blue">IONS</h4>
+					<h6 class="w3-text-blue">INPUT</h6><h7>H^+ + CO3^2- = H2O + CO2</h7>
+					<h6 class="w3-text-blue">EQUATION</h6><h7>H<sup>+</sup> + CO<sub>3</sub><sup>2−</sup> → H<sub>2</sub>O + CO<sub>2</sub></h7>
+					<h4></h4>
+					<div class="w3-border-top w3-border-bottom w3-border-blue"></div>
+					<h4 class="w3-text-blue">ELECTRONS</h4>
+					<h6 class="w3-text-blue">INPUT</h6><h7>Fe^3+ + e = Fe</h7>
+					<h6 class="w3-text-blue">EQUATION</h6><h7>Fe<sup>3+</sup> + e<sup>−</sup> → Fe</h7>
+					<h4></h4>
+					<div class="w3-border-top w3-border-bottom w3-border-blue"></div>
+					<h4 class="w3-text-blue">NO SPACE</h4>
+					<h6 class="w3-text-blue">INPUT</h6><h7>A3^-+B2^2+=A5B+e</h7>
+					<h6 class="w3-text-blue">EQUATION</h6><h7>A<sub>3</sub><sup>−</sup> + B<sub>2</sub><sup>2+</sup> → A<sub>5</sub>B + e<sup>−</sup></h7>
+					<h4></h4>
+					<div class="w3-border-top w3-border-bottom w3-border-blue"></div>
+					<h4 class="w3-text-blue">MORE SPACE</h4>
+					<h6 class="w3-text-blue">INPUT</h6><h7>C 3 H 5 ( O H ) 3 + O 2 = H 2 O + C O 2</h7>
+					<h6 class="w3-text-blue">EQUATION</h6><h7>C<sub>3</sub>H<sub>5</sub>(OH)<sub>3</sub> + O<sub>2</sub> → H<sub>2</sub>O + CO<sub>2</sub></h7>
+					<h4></h4>
+					<div class="w3-border-top w3-border-bottom w3-border-blue"></div>
+					<h4 class="w3-text-blue">OPTIONAL</h4>
+					<h6 class="w3-text-blue">INPUT</h6><h7>H1^1+ + e = H1^1-</h7>
+					<h6 class="w3-text-blue">EQUATION</h6><h7>H<sup>+</sup> + e<sup>−</sup> → H<sup>−</sup></h7>
+					<h4></h4>
+					<div class="w3-border-top w3-border-bottom w3-border-blue"></div>
+					<h4 class="w3-text-blue">FLEXIBLE</h4>
+					<h6 class="w3-text-blue">INPUT</h6><h7>Foo^5+ + Bar^3- = FooBar2 + FooBar^-</h7>
+					<h6 class="w3-text-blue">EQUATION</h6><h7>Foo<sup>5+</sup> + Bar<sup>3−</sup> → FooBar<sub>2</sub> + FooBar<sup>−</sup></h7>
+					<h4></h4>
+				</div>
+				<footer class="w3-container w3-blue">
+					<div class="w3-center w3-padding-16">
+						<button class="w3-btn w3-round-xxlarge w3-blue w3-border w3-border-white" onclick="document.getElementById('tutorial').style.display='none'">CLOSE</button>
+					</div>
+				</footer>
+			</div>
+		</div>
+		<div class="w3-container w3-margin-top">
+			<h4 class="w3-center w3-text-blue">INPUT</h4>
+			<p><input type=text" placeholder="ENTER EQUATION HERE" id="inputFormula" autocomplete="off" class="w3-input w3-text-blue" /></p>
+			<p><button class="w3-bar w3-mobile w3-btn w3-blue w3-round-xxlarge" onclick="balance(document.getElementById('inputFormula').value)">BALANCE</button></p>
+			<p><button class="w3-bar w3-mobile w3-btn w3-blue w3-round-xxlarge" onclick="random()">RANDOM</button></p>
+			<div class="w3-border-top w3-border-bottom w3-border-blue"></div>
+			<h4 class="w3-center w3-text-blue">OUTPUT</h4>
+			<p class="w3-text-blue w3-center">
+				<span id="balanced"></span>
+				<span id="message"></span>
+			</p>
+			<p class="w3-text-blue w3-center">
+				<code id="codeOutput">&nbsp;</code>
+			</p>
+		</div>
+	</body>
+</html>
