@@ -11,8 +11,8 @@ android {
         applicationId "com.BalancingEquations"
         minSdk 21
         targetSdk 35
-        versionCode 32000
-        versionName "3.2.0"
+        versionCode 33000
+        versionName "3.3.0"
     }
 
     buildTypes {
