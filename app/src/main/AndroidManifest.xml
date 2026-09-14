@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
-    <meta-data android:name="android.webkit.WebView.EnableSafeBrowsing"
-        android:value="true" />
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
@@ -15,6 +13,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BalanceEquation"
         tools:targetApi="31">
+
+        <meta-data android:name="android.webkit.WebView.EnableSafeBrowsing"
+            android:value="true" />
+
         <activity
             android:name=".MainActivity"
             android:exported="true"
